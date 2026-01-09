@@ -2,6 +2,7 @@ let count = 0
 
 const countEl = document.getElementById("count-el")
 const saveEl = document.getElementById("save-el")
+
 const incrementBtn = document.getElementById("increment-btn")
 const saveBtn = document.getElementById("save-btn")
 
