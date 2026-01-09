@@ -1,27 +1,49 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+  background: #fafafa;
+  color: #111;
+}
+
+/* Headings */
 h1 {
-    margin: 10px 0
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 8px;
 }
 
 h2 {
-    font-size: 50px;
-    margin: 0 0 20px 0;
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #000;
 }
 
+/* Buttons */
 button {
-    border: none;
-    padding: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: 200px;
-    width: 200px;
-    margin-bottom: 5px;
-    border-radius: 5px;
+  background: #111;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  margin-right: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: opacity 0.2s ease;
 }
 
-#increment-btn {
-    background: darkred;
+button:hover {
+  opacity: 0.8;
 }
 
-#save-btn {
-    background: green;
+/* Save text */
+#save-el {
+  margin-top: 25px;
+  font-size: 0.85rem;
+  color: #555;
 }
